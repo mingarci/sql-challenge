@@ -91,4 +91,6 @@ ORDER BY
 COUNT(last_name) DESC;
 
 
-
+--* Bonus Joke ID search
+select * from employees
+where emp_no = 499942
